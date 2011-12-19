@@ -12,7 +12,7 @@ Javascript scrollbar written with [*jQuery*](http://jquery.com/) and [*CoffeeScr
 
 _Basic usage_: 
 
-	`$('#myDiv').tzscroll(options); // Options must be a JSON object, and may have the properties listed bellow.`
+`$('#myDiv').tzscroll(options); // Options must be a JSON object, and may have the properties listed bellow.`
 
 _Ajax update e.g._
 
