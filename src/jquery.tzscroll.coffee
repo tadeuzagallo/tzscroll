@@ -398,4 +398,3 @@ class _TZScroll
 		
 		do @updateScrollbar
 		(do a if @isFunction a) for a in @cbs
-
