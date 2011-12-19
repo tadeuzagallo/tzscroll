@@ -59,7 +59,7 @@ class _TZScroll
 				@document.unbind 'mousemove.document'
 				@holderMove = no
 		else if e and e.type is 'resize'
-			if not @holderMove
+			unless @holderMove
 				@document.bind 'mousemove.document', @updateScrollbar 
 				@holderMove = yes
 			_hover = true
@@ -78,7 +78,7 @@ class _TZScroll
 			do @scrollVHolder.hide
 			@__h = no
 		
-		if not @options.alwaysVisible
+		unless @options.alwaysVisible
 			tmp = @options.margin * 2 + @options.size
 			_h = ch - chh
 			_h = 0 if _h < 0
@@ -147,7 +147,7 @@ class _TZScroll
 		if $t.parents('.tz-holder').size() or $t.get(0) is @holder.get(0)
 			return false
 		
-		if not @options.alwaysVisible
+		unless @options.alwaysVisible
 			@scrollVHolder.hide()
 			@scrollHHolder.hide()
 		
@@ -181,7 +181,7 @@ class _TZScroll
 		@holder.bind 'mouseout.holder', @onMouseOut
 		@document.unbind('mousemove').unbind('mouseup').unbind 'selectstart'
 		
-		if not @overHolder e
+		unless @overHolder e
 			@onMouseOut e
 	
 	onMouseDown: (e)=>
@@ -224,7 +224,7 @@ class _TZScroll
 			@go e
 	
 	goHorizontal: (e)->
-		if not @__h
+		unless @__h
 			return
 		
 		@target = $ e.target
@@ -252,7 +252,7 @@ class _TZScroll
 				,@options.interval
 	
 	go: (e)->
-		if not @__v
+		unless @__v
 			return
 		
 		if e.type is 'mousedown'
@@ -378,7 +378,7 @@ class _TZScroll
 			height: @options.buttonSize
 			background: @options.buttonBackground
 		
-		if not @options.showButtons
+		unless @options.showButtons
 			$.extend buttons, display: 'none'
 
 		@scrollUp.css $.extend marginLeft: @options.buttonMargin, buttons
