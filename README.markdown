@@ -1,16 +1,14 @@
-##_jquery.tzscroll.js_
+#_jquery.tzscroll.js_
 
 Javascript scrollbar written with [*jQuery*](http://jquery.com/) and [*CoffeeScript*](http://jashkenas.github.com/coffee-script/)
 
-- - -
-###_New features_:
+##_New features_:
    
 - The update action now listens to a 'tzchange' event, that may be triggered when update the div content;\n
 - Support to horizontal and vertical mousewheel;
 - Options to hide buttons, and set different sizes to bars and buttons, allow or not the scroll to one direction
 
-- - - 
-###_Usage_:
+##_Usage_:
 
 _Basic usage_: 
 
@@ -27,8 +25,7 @@ _Ajax update e.g._
         }
     });
 
-- - -
-###_Options_:
+##_Options_:
 
 - _showButtons_: Boolean value, true for show the buttons. Default: true 
 - _alwaysVisible_: Boolean value to don't hide the scrollbar when the mouse goes out of the div or the scroll is not needed. Default: false
