@@ -66,7 +66,6 @@
 
     _TZScroll.prototype.updateScrollbar = function(e) {
       var ch, chh, chw, cw, hh, hw, t1, t12, t2, t22, tmp, _h, _hover, _left, _top, _unbind, _w;
-      console.log('here', e ? e.type : e);
       this.__v = this.__h = false;
       hh = this.holder.height();
       ch = this.content.height();
