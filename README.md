@@ -27,17 +27,17 @@ _Ajax update e.g._
 
 ##_Options_:
 
-- __showButtons__: Boolean value, true for show the buttons. Default: true 
-- __alwaysVisible__: Boolean value to don't hide the scrollbar when the mouse goes out of the div or the scroll is not needed. Default: false
-- __barSize__: Bar size in pixels. Default: 9
-- __buttonSize__: Button size in pixels. Default: 9
-- __barBackground__: Bar background css property. Default: #999
-- __buttonBackground__: Button background css property. Default: #999
-- __buttonRadius__: Value for the radius of the button. Default: 50
-- __barRadius__: Value for the radius of the bar. Default: 10
-- __margin__: Value in pixels for the margin between the buttons and the edges. Default: 3
-- __step__: Value in pixels for each click in the scroll button or event from the mouse wheel. Default: 30
-- __interval__: Value in miliseconds that sets the interval to repeat the scroll action when keep the button clicked. Default: 50
-- __allowVertical__: Allow vertical scrolling. Default: true
-- __allowHorizontal__: Allow horizontal scrolling. Default: true
+- __showButtons__: Boolean value, true for show the buttons. _Default: true_
+- __alwaysVisible__: Boolean value to don't hide the scrollbar when the mouse goes out of the div or the scroll is not needed. _Default: false_
+- __barSize__: Bar size in pixels. _Default: 9_
+- __buttonSize__: Button size in pixels. _Default: 9_
+- __barBackground__: Bar background css property. _Default: #999_
+- __buttonBackground__: Button background css property. _Default: #999_
+- __buttonRadius__: Value for the radius of the button. _Default: 50_
+- __barRadius__: Value for the radius of the bar. _Default: 10_
+- __margin__: Value in pixels for the margin between the buttons and the edges. _Default: 3_
+- __step__: Value in pixels for each click in the scroll button or event from the mouse wheel. _Default: 30_
+- __interval__: Value in miliseconds that sets the interval to repeat the scroll action when keep the button clicked. _Default: 50_
+- __allowVertical__: Allow vertical scrolling. _Default: true_
+- __allowHorizontal__: Allow horizontal scrolling. _Default: true_
 
