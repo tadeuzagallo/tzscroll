@@ -2,15 +2,11 @@
 
 Javascript scrollbar written with [*jQuery*](http://jquery.com/) and [*CoffeeScript*](http://jashkenas.github.com/coffee-script/)
 
-- - - 
-
 ##_New features_:
    
 - The update action now listens to a 'tzchange' event, that may be triggered when update the div content;\n
 - Support to horizontal and vertical mousewheel;
 - Options to hide buttons, and set different sizes to bars and buttons, allow or not the scroll to one direction
-
-- - -
 
 ##_Usage_:
 
@@ -28,7 +24,6 @@ Ajax update e.g.
       }
    });
 `
-- - -
 
 ##_Options_:
 
